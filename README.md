@@ -2,6 +2,8 @@
 
 The Vintage Story in-game handbook as a small static web site, made for reading on a phone.
 
+Live site: https://shamorshinf.github.io/vintage-story-handbook/
+
 - **Guides**: every written guide page of the game and of each mod, grouped by mod.
 - **Blocks and items**: one page per block or item with its name, written description, handbook notes,
   grid recipes and a "used to craft" list.
@@ -49,7 +51,22 @@ python -I tools/build_site.py
 ```
 
 3. Read `docs/data/build-report.txt`. It lists the guide count per mod and anything that failed to parse.
-4. Look at the result locally (next section), then publish the changed `docs` folder.
+4. Look at the result locally (next section).
+5. Publish the change. Each command is run from this folder:
+
+```bash
+git add -A
+```
+
+```bash
+git commit -m "Rebuild handbook"
+```
+
+```bash
+git push
+```
+
+The live site updates a minute or two after the push.
 
 The generator needs Python 3.9 or newer and nothing else. It takes about 40 seconds.
 
