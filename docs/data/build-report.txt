@@ -1,0 +1,74 @@
+Handbook site build report
+==========================
+
+Generated: 2026-11-11
+Game version: 1.22.7
+Mods read: 153
+Guide pages: 135
+Item and block pages: 25370
+handbook.json: 386 KB
+
+Guide pages per mod
+-------------------
+  32  Vintage Story 1.22.7 [game]
+   1  chiseltools 1.17.9 [chiseltools]
+   3  A Culinary Artillery 2.0.0-dev.28 [aculinaryartillery]
+   7  Alchemy 2.1.24 [alchemy]
+   3  Feverstone Wilds 3.1.1 [feverstonewilds]
+   1  FoodShelves 3.1.1 [foodshelves]
+   2  Grassroots 0.7.10 [grassroots]
+  14  IthaniaCannedGoods 2.0.7 [ithaniacannedgoods]
+   9  Ithania Expanded Fishing 1.1.1 [ithaniaexpandedfishing]
+   1  Pet AI 5.1.2 [petai]
+  11  RP Voice Chat 2.6.6 [rpvoicechat]
+   1  Rustbound Magic 4.0.7 [rustboundmagic]
+   1  Shipwright: Vessels of Distant Shores 1.4.1 [shipwright]
+   1  Taxidermy 1.0.4 [taxidermy]
+   5  VintageCanvas 1.3.2 [vintagecanvas]
+   2  The Airship Mod! 1.1.4 [vsairshipmod]
+   2  XLib Fork 1.0.41 [xlibfork]
+   4  Expanded Foods: Core 2.0.0-dev.17 [expandedfoods]
+   4  Gemmage - Résine de pin 6.2.1 [gemmage]
+   8  Rift Traveler 0.7.5 [rifttraveler]
+   5  Tabletop Games 4.0.0 [tabletopgames]
+  10  The BASICs 5.9.1 [thebasics]
+   5  Aldi's Classes 2.4.5 [aldiclasses]
+   1  Expanded Foods: Chef's Tricks 1.0.0-dev.6 [efchefstricks]
+   1  Expanded Foods: Meals 1.0.0-dev.9 [efmealsmodule]
+   1  Riley's Classes 1.3.1 [rileysclasses]
+
+Pages that could not be read from asset files
+---------------------------------------------
+Rift Traveler [rifttraveler]: adds pages from code (OnInitCustomPages)
+The Tutorials tab (interactive tutorials) and the separate command handbook are built by game code and are not part of this site.
+
+Problems
+--------
+none
+
+Item and block pages
+--------------------
+Block and item type files read: 2119 (failed: 0); variants: 62217; pages: 25370
+Pages with a written description: 5738; with handbook sections: 6321; with a grid recipe: 10702; with a 'used to craft' list: 8913
+Names not found in the language files (shown from the code instead): 2041
+items.json: 1891 KB; item detail files: 11414 KB
+JSON patches aimed at types and recipes: 8023; applied: 5755; skipped, other mod not present: 1506; skipped, depends on world settings or disabled: 771; target file not found: 0; failed: 0
+Grid recipes read: 8401 in 1115 files; disabled: 804; malformed: 0; ingredients or output not found: 175; too many variants to expand: 0
+Recipe variants worked out: 19091; shown on a page: 15720; output has no handbook page: 2059
+'Also made by' lines (smithing, knapping, clay forming, barrel): 1659
+Not included, because the game computes it while running: item stats and tooltips, drops, smelting, cooking and meal recipes, alloys, trader lists, creature drops, storage notes, and names or recipes that depend on item attributes or on the server's world settings.
+
+Markup
+------
+Tags seen: a 9353, b 3, br 7878, em 1, filename</strong 6, font 1459, hk 857, i 1158, icon 159, itemstack 60, strong 1526
+Tags the handbook does not know (words kept, tag dropped): em 1, filename</strong 6
+Hotkey codes shown by their code name (no default key known): blockinteractionhelp, tabletopgames:combinecards, tabletopgames:shuffle
+Links to other protocols shown as plain text: chattype 2
+Handbook links whose target page is not in this copy: 22 targets, 31 links
+  block-foodshelves:coolingcabinet-normal-east, block-foodshelves:icekeeper-normal-east, block-foodshelves:meatfreezer-normal-east, block-foodshelves:seedbins-normal-east, block-tileslab-2x2-plain-travertine-down-free, block:plaster-plain, handbook-mealrecipe-augratin, handbook-mealrecipe-compote, handbook-mealrecipe-meatysalad, handbook-mealrecipe-meatystew, handbook-mealrecipe-pastacold, handbook-mealrecipe-pastahot, handbook-mealrecipe-porridge, handbook-mealrecipe-riceandbeans, handbook-mealrecipe-scrambledeggs, handbook-mealrecipe-soup, handbook-mealrecipe-spam, handbook-mealrecipe-vegetablestew, handbook-mealrecipe-yogurtmeal, item-rifttraveler-confluxironnugget, item:ore-borax, rifttraveler:temporal-discoveries
+
+Notes
+-----
+Several versions of one mod were found; the newest was used: aculinaryartillery: using 2.0.0-dev.28, ignoring older 2.0.0-dev.27; feralkinship: using 0.5.6, ignoring older 0.5.5; aldiclasses: using 2.4.5, ignoring older 2.4.2; em: using 3.8.2, ignoring older 3.8.1; slowtox: using 5.1.0, ignoring older 5.0.0
+Mod files present but not loaded last session (left out): coriaendershaders, rileysclassesnonegatives, rustboundguide, xlibxaldisclasses, xskillgildedxadlisclasses, xskillstailoringaldisclasses, xskillsxaldisclasses
+Mod list and load order taken from the last session in the client log (153 mods).
